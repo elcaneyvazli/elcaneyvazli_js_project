@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: $bg-color;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: $white;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 1.5rem 3rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: $primary;
+    background: transparent;
+    border-radius: 1.5rem;
+    border: 1px solid $primary;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    position: relative;
+
+    &:hover {
+        background: $primary;
+        color: $black;
+    }
+
+}
+
